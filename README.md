@@ -27,3 +27,7 @@ const p = promise(f());
 `;
 console.log(syncjs(src));
 ```
+
+## Todo
+
+- a only reserved word "promise" without blackets
