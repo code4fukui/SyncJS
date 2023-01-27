@@ -18,7 +18,7 @@ const p = f();
 ## Usage
 
 ```JavaScript
-import syncjs from "https://code4fukui.github.io/syncjs/syncjs.js";
+import syncjs from "https://code4fukui.github.io/SyncJS/syncjs.js";
 
 const src = `
 f();
