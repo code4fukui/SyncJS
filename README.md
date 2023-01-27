@@ -30,4 +30,4 @@ console.log(syncjs(src));
 
 ## Todo
 
-- a only reserved word "promise" without blackets
+- a only reserved word "promise" without blackets also
