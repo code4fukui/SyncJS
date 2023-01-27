@@ -8,6 +8,9 @@ export const syncjs = (src) => {
       if (ast.type != "CallExpression") {
         return addAwait(ast);
       }
+      if (ast.callee.name == "promise") {
+        return addAwait(ast.arguments[0]);
+      }
       return {
         type: "AwaitExpression",
         argument: addAwait(ast),

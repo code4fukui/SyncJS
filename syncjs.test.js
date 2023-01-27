@@ -13,6 +13,9 @@ Deno.test("in exp", () => {
 Deno.test("in func", () => {
   t.assertEquals(syncjs("f(f());"), "await f(await f());");
 });
+Deno.test("promise, no await", () => {
+  t.assertEquals(syncjs("promise(f());"), "f();");
+});
 
 /*
 before
