@@ -1,5 +1,7 @@
 # SyncJS
 
+> 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
+
 SyncJS is a default await AltJS, basically SyncJS is JavaScript. You can use the "promise" function to use Promise for async execution.
 
 ## Usage
