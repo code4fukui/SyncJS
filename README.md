@@ -23,4 +23,4 @@ console.log(syncjs(src));
 
 ## License
 
-MIT License
+MIT License — see [LICENSE](LICENSE).
