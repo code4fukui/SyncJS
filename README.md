@@ -1,19 +1,8 @@
 # SyncJS
 
-- SyncJS is a default await AltJS, basically SyncJS is JavaScript.
-- You can use "promise" function to to use Promise for async execution.
+> 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
 
-```JavaScript
-f();
-sleep(1000);
-const p = promise(f());
-```
-→
-```JavaScript
-await f();
-await sleep(1000);
-const p = f();
-```
+SyncJS is a default await AltJS, basically SyncJS is JavaScript. You can use the "promise" function to use Promise for async execution.
 
 ## Usage
 
@@ -31,3 +20,7 @@ console.log(syncjs(src));
 ## Todo
 
 - a only reserved word "promise" without blackets also
+
+## License
+
+MIT License — see [LICENSE](LICENSE).
